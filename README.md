@@ -23,7 +23,6 @@ This Python project simulates random experiments of drawing balls from a hat and
 
 ## 📚 Usage Example
 
-```python
 hat = Hat(blue=5, red=4, green=2)
 probability = experiment(hat=hat, expected_balls={'red': 1, 'green': 2}, num_balls_drawn=4, num_experiments=1000)
 print(probability)
@@ -33,7 +32,8 @@ Edit
 0.356
 This example simulates 1000 experiments of drawing 4 balls from a hat containing 5 blue, 4 red, and 2 green balls, and calculates the probability of drawing at least 1 red ball and 2 green balls.
 
-⚙️ Functions
+## ⚙️ Functions
+
 Hat Class
 The Hat class contains:
 
@@ -60,7 +60,6 @@ Simulates multiple random draws and calculates the probability of getting the ex
 Clone this repository to your local machine.
 
 Run the following Python script to perform an experiment and calculate the probability:
-
 bash
 Copy
 Edit
